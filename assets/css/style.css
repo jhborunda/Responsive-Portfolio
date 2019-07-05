@@ -217,10 +217,33 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  body {
-    background-color: blue;
-  
+    /* //portfolio/contact// */
+   
+    /* .container{ 
+      width: 200px;
+      height: 100px
+    } */
+      
+    #main-container{
+      width: 400px;
+    }
+    nav {
+      padding-right: 110px; 
+    }  
 
+    .work {
+      width: 250px;
+    }
+  /* //index// */   
+
+  .auth-image{
+    width: 280px;
+    height: 200px;
+    float: left;
+  }
+
+  #contact-form{
+    width: 300px;
   }
 }
 
