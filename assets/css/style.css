@@ -219,6 +219,8 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   body {
     background-color: blue;
+  
+
   }
 }
 
@@ -228,8 +230,28 @@ input[type=submit] {
   }
 }
 
-@media screen and (max-width: 640-px) {
-  body {
-    background-color: orange;
-  }
+@media screen and (max-width: 640px) {
+
+    /* //portfolio/contact// */
+      .container{ 
+        width: 100%;}
+        
+      nav {
+        width: 100%;
+        margin-left: 50px;
+        text-align: center;
+      }  
+    
+      .work {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* //index// */   
+
+    .auth-image{
+      width: 100%;
+      height: 100%;
+    }
+
 }
